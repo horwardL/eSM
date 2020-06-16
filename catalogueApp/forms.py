@@ -8,13 +8,13 @@ class CategoryAdminForm(forms.ModelForm):
         exclude = ('created_date', 'modified_date')
 
 
-class MarketAdminForm(froms.ModelForm):
+class MarketAdminForm(forms.ModelForm):
     class Meta:
         model = Market
         exclude = ('created_date', 'modified_date')
 
 
-class ProductAdminForm(froms.ModelForm):
+class ProductAdminForm(forms.ModelForm):
     class Meta:
         model = Product
         exclude = ('created_date', 'modified_date')
