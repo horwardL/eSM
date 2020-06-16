@@ -32,7 +32,7 @@ class Category(Base):
         return reverse("catalogueApp:catalogue", args=[self.slug])
 
 
-class Market:
+class Market(Base):
     Market_Status = [(0, "Active"), (1, "InActive")]
 
     name = models.CharField(max_length=50, unique=True)
