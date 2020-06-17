@@ -1,0 +1,36 @@
+.layout{
+    &_nav_wrapper {
+        height: 80px;
+        color: #000000;
+        padding-top: 15px;
+    }
+
+    &_nav_market_wrapper {
+        padding-top: 12px;
+    }
+
+    &_nav_market {
+        color: #000000;
+        font-size: 20px;
+        font-weight: 500;
+
+        &:hover {
+            text-decoration: none;
+            color: #000000;
+            font-size: 20px;
+            font-weight: 500;
+        }
+    }
+
+    &_cart_wrapper {
+        padding-top: 16px;
+    }
+
+    &_content_wrapper {
+        margin-top: 80px;
+    }
+
+    &_copyright {
+        color: #222222;
+    }
+}
