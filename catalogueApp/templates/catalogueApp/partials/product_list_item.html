@@ -1,0 +1,19 @@
+<div class="product_list_item">
+    <div class="product_list_item_image_wrapper">
+        <img src="{% static 'app/images/productimages/main/' %}{{product.image_url}}" class="product_list_item_image"/>
+    </div>
+</div>
+<div>
+    <p class="product_list_item_product_name">{{ product.name }}</p>
+</div>
+<div>
+    <p class="product_list_item_product_price">{{ product.price }}</p>
+</div>
+<div>
+    <form method="post">
+        {% csrf_token %}
+        <input type="hidden" name="product_id" value="{{ product.id }}"/>
+        <input type="hidden" name="return_url" value="{{ request.get_full_path }}"/>
+        <button type="submit" name="submit" class="product_list_item_button">Add to Cart</button>
+    </form>
+</div>

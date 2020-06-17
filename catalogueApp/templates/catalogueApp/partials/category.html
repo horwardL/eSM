@@ -1,0 +1,10 @@
+<h5 class="category_heading">Categories</h5>
+{% for c in categories %}
+    <div class="category_list_wrapper">
+        {% if c.slug == selected_category %}
+            <a herf="{% url 'catalogueApp:catalogue' c.slug selected_market %}" class="category_selected">{{ c.name }}</a>
+        {% else %}
+            <a herf="{% url 'catalogueApp:catalogue' c.slug selected_market %}" class="category_not_selected">{{ c.name }}</a>
+        {% endif %}
+    </div>
+{% endfor %}

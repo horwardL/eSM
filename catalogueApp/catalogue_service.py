@@ -2,16 +2,16 @@ from django.core.paginator import PageNotAnInteger, EmptyPage, Paginator
 from catalogueApp.models import Product
 
 
-def fetch_product(request, catagory_slug, market_slug):
+def fetch_product(request, category_slug, market_slug):
     products_list = Product.objects.filter(product_status=0)
 
-    if catagory_slug != 'all-categories' and market_slug != 'all-market':
-        products_list = Product.objects.filter(catagory_slug=catagory_slug, market_slug=market_slug)
+    if category_slug != 'all-categories' and market_slug != 'all-markets':
+        products_list = Product.objects.filter(category_slug=category_slug, market_slug=market_slug)
     
-    if catagory_slug != 'all-categories' and market_slug == 'all-market':
-        products_list = Product.objects.filter(catagory_slug=catagory_slug)
+    if category_slug != 'all-categories' and market_slug == 'all-markets':
+        products_list = Product.objects.filter(category_slug=category_slug)
 
-    if catagory_slug == 'all-categories' and market_slug != 'all-market':
+    if category_slug == 'all-categories' and market_slug != 'all-markets':
         products_list = Product.objects.filter(market_slug=market_slug)
 
     page = request.GET.get('page', 1)

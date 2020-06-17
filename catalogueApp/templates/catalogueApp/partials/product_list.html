@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row">
+        <div class="pull-right">
+            {% include 'catalogueApp/partials/pagination.html' %}
+        </div>
+    </div>
+</div>
+<hr class="product_list_upper_horizontal_line"/>
+<div class "row">
+    {% if products %}
+        {% for product in products %}
+            <div class="col-md-4">
+                {% include 'catalogueApp/partials/product_list_item.html'%}
+            </div>
+        {% endfor%}
+    {% else %}
+        <div class="product_list_empty_notifier">
+            <p>
+                No matches.
+            </p>
+        </div>
+    {% endif %}
+</div>
+<hr class="product_list_lower_horizontal_line"/>
+<div class "row">
+    <div class="pull_right">
+        {% include 'catalogueApp/partials/pagination.html' %}
+    </div>
+</div>
