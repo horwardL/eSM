@@ -2,11 +2,13 @@ from django.shortcuts import render
 from django.http import HttpRequest
 from datetime import datetime
 from catalogueApp.catalogue_service import fetch_product
+from cartApp import cart_service
 
 def catalogue(request, category_slug='all-categories', market_slug='all-markets'):
     assert isinstance(request, HttpRequest)
 
     if request.method == 'POST':
+        cart_servive.add_to_cart(request)
         page_object = fetch_product(request, category_slug, market_slug)
         return render(
             request,
