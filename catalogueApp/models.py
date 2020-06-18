@@ -57,6 +57,7 @@ class Market(Base):
 
 class Product(Base):
     Product_Status = [(0, "Active"), (1, "InActive")]
+    Units = [(0, "each"), (1, "gram")]
 
     name = models.CharField(max_length=50)
     slug = models.SlugField(max_length=50, unique=True, help_text="Unique product page URL.")
@@ -65,7 +66,7 @@ class Product(Base):
     meta_keywords = models.CharField("Meta Keywords", max_length=500, help_text="Comma separated set to SEO keywords for meta tag")
     sku = models.CharField(max_length=100)
     price = models.DecimalField(max_digits=10, decimal_places=2)
-    unit = models.BooleanField(default=True) #True = each, False = gram
+    unit = models.IntegerField(choices=Units, default=0)
     weigth = models.DecimalField(max_digits=15, decimal_places=2, blank=False, default=0.00)
     old_price = models.DecimalField(max_digits=10, decimal_places=2, blank=True, default=0.00)
     image_url = models.CharField(max_length=500)
