@@ -25,6 +25,7 @@ INSTALLED_APPS = [
     'locationApp',
     'userApp',
     'orderApp',
+    'checkoutApp',
 ]
 
 MIDDLEWARE = [
