@@ -24,6 +24,7 @@ INSTALLED_APPS = [
     'cartApp',
     'locationApp',
     'userApp',
+    'orderApp',
 ]
 
 MIDDLEWARE = [
