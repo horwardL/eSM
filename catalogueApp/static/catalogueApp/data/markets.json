@@ -12,5 +12,19 @@
             "meta_keywords": "Castco",
             "market_status": 0
         }
+    },
+    {
+        "model": "catalogueApp.market",
+        "pk": 4,
+        "fields": {
+            "created_date": "2020-03-15T10:15:55.235Z",
+            "modified_date": "2020-03-15T10:15:55.235Z",
+            "name": "Wegmasn",
+            "slug": "wegmasn",
+            "description": "Wegmasn",
+            "meta_description": "Wegmasn",
+            "meta_keywords": "Wegmasn",
+            "market_status": 0
+        }
     }
 ]

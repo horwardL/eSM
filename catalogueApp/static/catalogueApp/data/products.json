@@ -26,5 +26,317 @@
                 1
             ]
         }
+    },
+    {
+        "model": "catalogueApp.product",
+        "pk": 2,
+        "fields": {
+            "created_date": "2020-03-15T10:15:55.235Z",
+            "modified_date": "2020-03-15T10:15:55.235Z",
+            "name": "Yellow Banana 1 Bunch",
+            "slug": "yellow-banana-1-bunch",
+            "description": "Yellow Banana 1 Bunch",
+            "meta_description": "Yellow Banana 1 Bunch",
+            "meta_keywords": "Yellow Banana 1 Bunch",
+            "sku": "Yellow Banana 1 Bunch",
+            "price": "2.49",
+            "unit": 0,
+            "old_price": "0.00",
+            "image_url": "Yellow-Banana-1-Bunch.jpg",
+            "is_bestseller": false,
+            "is_featured": false,
+            "quantity": 6,
+            "product_status": 0,
+            "categories": [
+                2
+            ],
+            "markets": [
+                3
+            ]
+        }
+    },
+    {
+        "model": "catalogueApp.product",
+        "pk": 3,
+        "fields": {
+            "created_date": "2020-03-15T10:15:55.235Z",
+            "modified_date": "2020-03-15T10:15:55.235Z",
+            "name": "Frozen Beef Sliced Ribeye Bulgogi 1lb(454g)",
+            "slug": "frozen-beef-sliced-ribeye-bulgogi-454g",
+            "description": "Frozen Beef Sliced Ribeye Bulgogi 1lb(454g)",
+            "meta_description": "Frozen Beef Sliced Ribeye Bulgogi 1lb(454g)",
+            "meta_keywords": "Frozen Beef Sliced Ribeye Bulgogi 1lb(454g)",
+            "sku": "Frozen Beef Sliced Ribeye Bulgogi 1lb(454g)",
+            "price": "8.99",
+            "unit": 1,
+            "weigth": "454.00",
+            "old_price": "0.00",
+            "image_url": "Frozen-Beef-Sliced-Ribeye-Bulgogi.jpg",
+            "is_bestseller": false,
+            "is_featured": false,
+            "quantity": 6,
+            "product_status": 0,
+            "categories": [
+                3
+            ],
+            "markets": [
+                3
+            ]
+        }
+    },
+    {
+        "model": "catalogueApp.product",
+        "pk": 4,
+        "fields": {
+            "created_date": "2020-03-15T10:15:55.235Z",
+            "modified_date": "2020-03-15T10:15:55.235Z",
+            "name": "Chicago Steak Aged USDA Prime Filet Pack 8oz. each, 8-pack",
+            "slug": "chicago-steak-aged-usda-prime-filet-pack-8oz.-each,-8-pack",
+            "description": "Chicago Steak Aged USDA Prime Filet Pack 8oz. each, 8-pack",
+            "meta_description": "Chicago Steak Aged USDA Prime Filet Pack 8oz. each, 8-pack",
+            "meta_keywords": "Chicago Steak Aged USDA Prime Filet Pack 8oz. each, 8-pack",
+            "sku": "Chicago Steak Aged USDA Prime Filet Pack 8oz. each, 8-pack",
+            "price": "219.99",
+            "unit": 1,
+            "weigth": "28.35",
+            "old_price": "0.00",
+            "image_url": "Chicago-Steak-Aged-USDA-Prime-Filet-Pack-8oz.-each,-8-pack.jpg",
+            "is_bestseller": false,
+            "is_featured": false,
+            "quantity": 8,
+            "product_status": 0,
+            "categories": [
+                3
+            ],
+            "markets": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "catalogueApp.product",
+        "pk": 5,
+        "fields": {
+            "created_date": "2020-03-15T10:15:55.235Z",
+            "modified_date": "2020-03-15T10:15:55.235Z",
+            "name": "Wegmans Organic 27 Grains & Seeds Sandwich Bread",
+            "slug": "wegmans-organic-27-grains-&-seeds-sandwich-bread",
+            "description": "Wegmans Organic 27 Grains & Seeds Sandwich Bread",
+            "meta_description": "Wegmans Organic 27 Grains & Seeds Sandwich Bread",
+            "meta_keywords": "Wegmans Organic 27 Grains & Seeds Sandwich Bread",
+            "sku": "Wegmans Organic 27 Grains & Seeds Sandwich Bread",
+            "price": "5.00",
+            "unit": 0,
+            "weigth": "5.95",
+            "old_price": "0.00",
+            "image_url": "wegmans-organic-27-grains-&-seeds-sandwich-bread.jpg",
+            "is_bestseller": false,
+            "is_featured": false,
+            "quantity": 8,
+            "product_status": 0,
+            "categories": [
+                4
+            ],
+            "markets": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "catalogueApp.product",
+        "pk": 6,
+        "fields": {
+            "created_date": "2020-03-15T10:15:55.235Z",
+            "modified_date": "2020-03-15T10:15:55.235Z",
+            "name": "Broccoli Crowns",
+            "slug": "broccoli-crowns",
+            "description": "Broccoli Crowns",
+            "meta_description": "Broccoli Crowns",
+            "meta_keywords": "Broccoli Crowns",
+            "sku": "Broccoli Crowns",
+            "price": "0.75",
+            "unit": 0,
+            "weigth": "453.59",
+            "old_price": "0.00",
+            "image_url": "broccoli-crowns.jpg",
+            "is_bestseller": false,
+            "is_featured": false,
+            "quantity": 1,
+            "product_status": 0,
+            "categories": [
+                5
+            ],
+            "markets": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "catalogueApp.product",
+        "pk": 7,
+        "fields": {
+            "created_date": "2020-03-15T10:15:55.235Z",
+            "modified_date": "2020-03-15T10:15:55.235Z",
+            "name": "Yellow Corn 3 Ea",
+            "slug": "yellow-corn-3-ea",
+            "description": "Yellow Corn 3 Ea",
+            "meta_description": "Yellow Corn 3 Ea",
+            "meta_keywords": "Yellow Corn 3 Ea",
+            "sku": "Yellow Corn 3 Ea",
+            "price": "2.99",
+            "unit": 0,
+            "old_price": "0.00",
+            "image_url": "yellow-corn-3-ea.jpg",
+            "is_bestseller": false,
+            "is_featured": false,
+            "quantity": 1,
+            "product_status": 0,
+            "categories": [
+                5
+            ],
+            "markets": [
+                3
+            ]
+        }
+    },
+    {
+        "model": "catalogueApp.product",
+        "pk": 8,
+        "fields": {
+            "created_date": "2020-03-15T10:15:55.235Z",
+            "modified_date": "2020-03-15T10:15:55.235Z",
+            "name": "Wegmans Live Lobster (Avg. 1.25lb.)",
+            "slug": "wegmans-live-lobster-(avg.-1.25lb.)",
+            "description": "Wegmans Live Lobster (Avg. 1.25lb.)",
+            "meta_description": "Wegmans Live Lobster (Avg. 1.25lb.)",
+            "meta_keywords": "Wegmans Live Lobster (Avg. 1.25lb.)",
+            "sku": "Wegmans Live Lobster (Avg. 1.25lb.)",
+            "price": "12.49",
+            "unit": 0,
+            "old_price": "0.00",
+            "image_url": "wegmans-live-lobster-(avg.-1.25lb.).jpg",
+            "is_bestseller": false,
+            "is_featured": false,
+            "quantity": 1,
+            "product_status": 0,
+            "categories": [
+                6
+            ],
+            "markets": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "catalogueApp.product",
+        "pk": 9,
+        "fields": {
+            "created_date": "2020-03-15T10:15:55.235Z",
+            "modified_date": "2020-03-15T10:15:55.235Z",
+            "name": "Northwest Fish Wild Alaskan Cod Loins, 4-6 oz. portions, minimum 25-count, 10 lbs.",
+            "slug": "northwest-fish-wild-alaskan-cod-loins,-4-6-oz.-portions,-minimum-25-count,-10-lbs.",
+            "description": "Northwest Fish Wild Alaskan Cod Loins, 4-6 oz. portions, minimum 25-count, 10 lbs.",
+            "meta_description": "Northwest Fish Wild Alaskan Cod Loins, 4-6 oz. portions, minimum 25-count, 10 lbs.",
+            "meta_keywords": "Northwest Fish Wild Alaskan Cod Loins, 4-6 oz. portions, minimum 25-count, 10 lbs.",
+            "sku": "Northwest Fish Wild Alaskan Cod Loins, 4-6 oz. portions, minimum 25-count, 10 lbs.",
+            "price": "139.99",
+            "unit": 1,
+            "old_price": "0.00",
+            "image_url": "northwest-fish-wild-alaskan-cod-loins,-4-6-oz.-portions,-minimum-25-count,-10-lbs.jpg",
+            "is_bestseller": false,
+            "is_featured": false,
+            "quantity": 1,
+            "product_status": 0,
+            "categories": [
+                6
+            ],
+            "markets": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "catalogueApp.product",
+        "pk": 10,
+        "fields": {
+            "created_date": "2020-03-15T10:15:55.235Z",
+            "modified_date": "2020-03-15T10:15:55.235Z",
+            "name": "Strawberries, FAMILY PACK",
+            "slug": "strawberries,-family-pack",
+            "description": "Strawberries, FAMILY PACK",
+            "meta_description": "Strawberries, FAMILY PACK",
+            "meta_keywords": "Strawberries, FAMILY PACK",
+            "sku": "Strawberries, FAMILY PACK",
+            "price": "3.99",
+            "unit": 0,
+            "old_price": "0.00",
+            "image_url": "strawberries,-family-pack.jpg",
+            "is_bestseller": false,
+            "is_featured": false,
+            "quantity": 1,
+            "product_status": 0,
+            "categories": [
+                2
+            ],
+            "markets": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "catalogueApp.product",
+        "pk": 11,
+        "fields": {
+            "created_date": "2020-03-15T10:15:55.235Z",
+            "modified_date": "2020-03-15T10:15:55.235Z",
+            "name": "Perrier Sparkling Mineral Water, 16.9 fl oz, 24-count",
+            "slug": "perrier-sparkling-mineral-water,-16.9-fl-oz,-24-count",
+            "description": "Perrier Sparkling Mineral Water, 16.9 fl oz, 24-count",
+            "meta_description": "Perrier Sparkling Mineral Water, 16.9 fl oz, 24-count",
+            "meta_keywords": "Perrier Sparkling Mineral Water, 16.9 fl oz, 24-count",
+            "sku": "Perrier Sparkling Mineral Water, 16.9 fl oz, 24-count",
+            "price": "19.49",
+            "unit": 0,
+            "old_price": "0.00",
+            "image_url": "perrier-sparkling-mineral-water,-16.9-fl-oz,-24-count.jpg",
+            "is_bestseller": false,
+            "is_featured": false,
+            "quantity": 1,
+            "product_status": 0,
+            "categories": [
+                7
+            ],
+            "markets": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "catalogueApp.product",
+        "pk": 12,
+        "fields": {
+            "created_date": "2020-03-15T10:15:55.235Z",
+            "modified_date": "2020-03-15T10:15:55.235Z",
+            "name": "Ginger 1lb(453g)",
+            "slug": "ginger-1lb(453g)",
+            "description": "Ginger 1lb(453g)",
+            "meta_description": "Ginger 1lb(453g)",
+            "meta_keywords": "Ginger 1lb(453g)",
+            "sku": "Ginger 1lb(453g)",
+            "price": "1.79",
+            "unit": 1,
+            "old_price": "0.00",
+            "image_url": "ginger-1lb(453g).jpg",
+            "is_bestseller": false,
+            "is_featured": false,
+            "quantity": 1,
+            "product_status": 0,
+            "categories": [
+                5
+            ],
+            "markets": [
+                3
+            ]
+        }
     }
 ]

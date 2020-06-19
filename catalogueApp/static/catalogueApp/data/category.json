@@ -12,5 +12,89 @@
             "meta_keywords": "Milk & Milk Substitutes",
             "category_status": 0
         }
+    },
+    {
+        "model": "catalogueApp.category",
+        "pk": 2,
+        "fields": {
+            "created_date": "2020-03-15T10:15:55.235Z",
+            "modified_date": "2020-03-15T10:15:55.235Z",
+            "name": "Fruit",
+            "slug": "fruit",
+            "description": "Fruit",
+            "meta_description": "Fruit",
+            "meta_keywords": "Fruit",
+            "category_status": 0
+        }
+    },
+    {
+        "model": "catalogueApp.category",
+        "pk": 3,
+        "fields": {
+            "created_date": "2020-03-15T10:15:55.235Z",
+            "modified_date": "2020-03-15T10:15:55.235Z",
+            "name": "Meat",
+            "slug": "mean",
+            "description": "Meat",
+            "meta_description": "Meat",
+            "meta_keywords": "Meat",
+            "category_status": 0
+        }
+    },
+    {
+        "model": "catalogueApp.category",
+        "pk": 4,
+        "fields": {
+            "created_date": "2020-03-15T10:15:55.235Z",
+            "modified_date": "2020-03-15T10:15:55.235Z",
+            "name": "Bread",
+            "slug": "bread",
+            "description": "Bread",
+            "meta_description": "Bread",
+            "meta_keywords": "Bread",
+            "category_status": 0
+        }
+    },
+    {
+        "model": "catalogueApp.category",
+        "pk": 5,
+        "fields": {
+            "created_date": "2020-03-15T10:15:55.235Z",
+            "modified_date": "2020-03-15T10:15:55.235Z",
+            "name": "Vegetables",
+            "slug": "vegetables",
+            "description": "Vegetables",
+            "meta_description": "Vegetables",
+            "meta_keywords": "Vegetables",
+            "category_status": 0
+        }
+    },
+    {
+        "model": "catalogueApp.category",
+        "pk": 6,
+        "fields": {
+            "created_date": "2020-03-15T10:15:55.235Z",
+            "modified_date": "2020-03-15T10:15:55.235Z",
+            "name": "Seafood",
+            "slug": "seafood",
+            "description": "Seafood",
+            "meta_description": "Seafood",
+            "meta_keywords": "Seafood",
+            "category_status": 0
+        }
+    },
+    {
+        "model": "catalogueApp.category",
+        "pk": 7,
+        "fields": {
+            "created_date": "2020-03-15T10:15:55.235Z",
+            "modified_date": "2020-03-15T10:15:55.235Z",
+            "name": "Water & Beverages",
+            "slug": "water-&-beverages",
+            "description": "Water & Beverages",
+            "meta_description": "Water & Beverages",
+            "meta_keywords": "Water & Beverages",
+            "category_status": 0
+        }
     }
 ]
