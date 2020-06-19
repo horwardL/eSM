@@ -2,7 +2,7 @@ from django import forms
 from userApp.models import Customer, Person
 
 
-class CustomerAdminForm(form.ModelForm):
+class CustomerAdminForm(forms.ModelForm):
     class Meta:
         model = Customer
         exclude = ('created_date', 'modified_date')
