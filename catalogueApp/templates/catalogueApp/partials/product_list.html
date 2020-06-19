@@ -1,29 +1,32 @@
 <div class="container">
-    <div class="row">
-        <div class="pull-right">
-            {% include 'catalogueApp/partials/pagination.html' %}
-        </div>
+  <div class="row">
+    <div class="pull-right">
+      {% include 'catalogueApp/partials/pagination.html' %}
     </div>
-</div>
-<hr class="product_list_upper_horizontal_line"/>
-<div class "row">
-    {% if products %}
-        {% for product in products %}
+  </div>
+  <hr class="product-list__upper-horizontal-line"/>
+  <div class="row">
+    {% if page_object %}
+
+        {% for product in page_object %}
             <div class="col-md-4">
-                {% include 'catalogueApp/partials/product_list_item.html'%}
+              {% include 'catalogueApp/partials/product_list_item.html' %}
             </div>
-        {% endfor%}
+        {% endfor %}
+
     {% else %}
-        <div class="product_list_empty_notifier">
-            <p>
-                No matches.
-            </p>
+        <div class="product-list__empty-notifier">
+          <p>
+            No Matches.
+          </p>
         </div>
-    {% endif %}
-</div>
-<hr class="product_list_lower_horizontal_line"/>
-<div class "row">
-    <div class="pull_right">
-        {% include 'catalogueApp/partials/pagination.html' %}
+    {% endif%}
+
+  </div>
+  <hr class="product-list__lower-horizontal-line"/>
+  <div class="row">
+    <div class="pull-right">
+      {% include 'catalogueApp/partials/pagination.html' %}
     </div>
+  </div>
 </div>

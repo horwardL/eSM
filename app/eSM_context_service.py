@@ -1,5 +1,5 @@
 from eSM import settings
-from catalogueApp.models import Category, Market
+from catalogueApp.models import Market, Category
 from cartApp import cart_service
 
 def eSM_context(request):

@@ -1,5 +1,5 @@
 import os
-
+import posixpath
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -19,8 +19,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'catalogueApp',
-    'app',
     'cartApp',
+    'app',
 ]
 
 MIDDLEWARE = [
@@ -46,6 +46,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'app.eSM_context_service.eSM_context',
             ],
         },
     },
@@ -97,8 +98,10 @@ USE_L10N = True
 
 USE_TZ = True
 
+SITE_NANE = "E-Super Market"
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static']))

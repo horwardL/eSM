@@ -1,5 +1,5 @@
 from django.contrib import admin
-from catalogueApp.models import Category, Market, Product
+from catalogueApp.models import Product, Category, Market
 from catalogueApp.forms import CategoryAdminForm, MarketAdminForm, ProductAdminForm
 
 

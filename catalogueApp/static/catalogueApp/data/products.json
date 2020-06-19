@@ -1,0 +1,30 @@
+[
+    {
+        "model": "catalogueApp.product",
+        "pk": 1,
+        "fields": {
+            "created_date": "2020-03-15T10:15:55.235Z",
+            "modified_date": "2020-03-15T10:15:55.235Z",
+            "name": "Horizon Organic Lowfat Milk, Vanilla, 8fl oz, 18-count",
+            "slug": "horizon-organic-lowfat-milk,-vanilla,-8fl-oz,-18-count",
+            "description": "Horizon Organic Lowfat Milk, Vanilla, 8fl oz, 18-count",
+            "meta_description": "Horizon Organic Lowfat Milk, Vanilla, 8fl oz, 18-count",
+            "meta_keywords": "Horizon Organic Lowfat Milk, Vanilla, 8fl oz, 18-count",
+            "sku": "Horizon Organic Lowfat Milk, Vanilla, 8fl oz, 18-count",
+            "price": "18.49",
+            "unit": 0,
+            "old_price": "0.00",
+            "image_url": "Horizon-Organic-Lowfat-Milk,-Vanilla,-8fl-oz,-18-count.jpg",
+            "is_bestseller": false,
+            "is_featured": false,
+            "quantity": 11,
+            "product_status": 0,
+            "categories": [
+                1
+            ],
+            "markets": [
+                1
+            ]
+        }
+    }
+]

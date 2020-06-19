@@ -1,0 +1,16 @@
+[
+    {
+        "model": "catalogueApp.market",
+        "pk": 1,
+        "fields": {
+            "created_date": "2020-03-15T10:15:55.235Z",
+            "modified_date": "2020-03-15T10:15:55.235Z",
+            "name": "Castco",
+            "slug": "castco",
+            "description": "Castco",
+            "meta_description": "Castco",
+            "meta_keywords": "Castco",
+            "market_status": 0
+        }
+    }
+]

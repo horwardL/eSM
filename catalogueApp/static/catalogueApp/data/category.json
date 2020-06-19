@@ -1,0 +1,16 @@
+[
+    {
+        "model": "catalogueApp.category",
+        "pk": 1,
+        "fields": {
+            "created_date": "2020-03-15T10:15:55.235Z",
+            "modified_date": "2020-03-15T10:15:55.235Z",
+            "name": "Milk & Milk Substitutes",
+            "slug": "milk-&-milk-substitutes",
+            "description": "Milk & Milk Substitutes",
+            "meta_description": "Milk & Milk Substitutes",
+            "meta_keywords": "Milk & Milk Substitutes",
+            "category_status": 0
+        }
+    }
+]

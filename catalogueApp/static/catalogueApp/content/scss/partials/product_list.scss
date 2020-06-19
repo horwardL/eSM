@@ -1,10 +1,10 @@
-.product_list {
-    &_upper_horizontal_line {
+.product-list {
+    &__upper-horizontal-line {
         padding: 0px;
         margin: 0px;
     }
 
-    &_empty_notifier {
+    &__empty-notifier {
         color: #000000;
         font-size: 22px;
         font-weight: 500;
@@ -13,7 +13,7 @@
         padding-bottom: 250px;
     }
 
-    &_lower_horizontal_line{
+    &__lower-horizontal-line {
         padding-bottom: -18px;
         margin-bottom: -18px;
     }

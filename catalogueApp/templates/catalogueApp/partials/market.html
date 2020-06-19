@@ -1,10 +1,10 @@
-<h5 class="market_heading">Markets</h5>
-{% for m in markets %}
-    <div class="market_list_wrapper">
-        {% if m.slug == selected_market %}
-            <a herf="{% url 'catalogueApp:catalogue' selected_category m.slug %}" class="market_selected">{{ m.name }}</a>
-        {% else %}
-            <a herf="{% url 'catalogueApp:catalogue' selected_category m.slug %}" class="market_not_selected">{{ m.name }}</a>
-        {% endif %}
+<h5 class="market__heading">Markets</h5> 
+{% for m in markets %}      
+    <div class="market__list-wrapper">
+      {% if m.slug == selected_market %}
+           <a href="{% url 'catalogueApp:catalogue' selected_category m.slug %}" class="market__selected">{{ m.name }}</a>
+      {% else %}
+           <a href="{% url 'catalogueApp:catalogue' selected_category m.slug %}" class="market__not-selected">{{ m.name }}</a>
+      {% endif %}
     </div>
 {% endfor %}

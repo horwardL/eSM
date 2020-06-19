@@ -1,23 +1,23 @@
-{% extends 'app/layout.html' %}
+{% extends "app/layout.html" %}
 
 {% block content %}
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 index_filter_wrapper">
-                <h4 class="index_filter_title">Filter By</h4>
-                <hr/>
-                <div>
-                    {% include 'catalogueApp/partials/category.html' %}
-                </div>
-                <div>
-                    {% include 'catalogueApp/partials/market.html' %}
-                </div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 index__filter-wrapper">
+            <h4 class="index__filter-title">Filter By</h4>
+            <hr/>
+            <div>
+                {% include 'catalogueApp/partials/category.html' %}
             </div>
-            <div class="col-md-9 {% if page_object.has_other_pages %}index_product_wrapper_has_pages{% else %}index_product_wrapper_no_pages{% endif %}">
-                {% include 'catalogueApp/partials/product_list.html' %}
+            <div>
+                {% include 'catalogueApp/partials/market.html' %}
             </div>
         </div>
+        <div class="col-md-9 {%if page_object.has_other_pages %}index__product-wrapper--has-pages{% else %}index__product-wrapper--no-pages{% endif %}">
+            {% include 'catalogueApp/partials/product_list.html' %}
+        </div>
     </div>
+</div>
 
 {% endblock %}

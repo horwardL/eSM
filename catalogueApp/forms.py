@@ -1,5 +1,5 @@
 from django import forms
-from catalogueApp.models import Category, Market, Product
+from catalogueApp.models import Product, Category, Market
 
 
 class CategoryAdminForm(forms.ModelForm):
