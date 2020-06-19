@@ -23,6 +23,7 @@ INSTALLED_APPS = [
     'catalogueApp',
     'cartApp',
     'locationApp',
+    'userApp',
 ]
 
 MIDDLEWARE = [
